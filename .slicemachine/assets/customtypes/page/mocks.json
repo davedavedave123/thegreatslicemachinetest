@@ -1,0 +1,37 @@
+{
+  "id": "696dd19d-2c64-48ec-9a83-462fbc3a8a7c",
+  "uid": "veritatis-quia-perspiciatis",
+  "type": "page",
+  "data": {
+    "meta_title": "target mission-critical content",
+    "meta_description": "benchmark compelling infomediaries",
+    "social_cards": [
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "exploit impactful interfaces",
+        "social_card_description": "reinvent 24/7 partnerships"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "harness interactive supply-chains",
+        "social_card_description": "syndicate web-enabled niches"
+      }
+    ]
+  }
+}

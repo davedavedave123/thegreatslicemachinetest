@@ -1,0 +1,110 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "image_gallery",
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 727,
+            "height": 402
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=727&h=402&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Non velit irure sint deserunt excepteur. Sunt aute ex nulla voluptate sint ut ad sunt do exercitation non non amet enim. Aliquip enim ad non.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "linkLabel": "harness global e-services"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 727,
+            "height": 402
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=727&h=402&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Dolore in cupidatat aliqua qui et elit minim exercitation ipsum deserunt Lorem sit. Deserunt et ipsum nulla consequat. Incididunt labore magna cillum ex laborum nostrud proident velit ad tempor magna.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "drive web-enabled systems"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 727,
+            "height": 402
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=727&h=402&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Cillum aliqua deserunt officia. Adipisicing amet nisi consectetur mollit occaecat pariatur ad sit ea. Veniam consequat eu anim ad magna pariatur tempor.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "linkLabel": "engineer strategic partnerships"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 727,
+            "height": 402
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=727&h=402&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Ullamco cupidatat nostrud laborum. Ad minim tempor irure dolore veniam velit culpa est. Nostrud voluptate pariatur nulla reprehenderit nulla consectetur ut aliquip velit eiusmod labore nisi mollit Lorem.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "incentivize bleeding-edge content"
+      }
+    ],
+    "primary": {
+      "galleryTitle": [
+        {
+          "type": "heading2",
+          "text": "Matrix visionary eyeballs",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
