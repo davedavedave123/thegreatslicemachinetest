@@ -2,8 +2,11 @@ import "../styles/globals.css";
 import { Client } from "../prismic-configuration";
 
 function MyApp({ Component, pageProps, props }) {
-  console.log("props", props);
-  return <Component {...pageProps} menu={props.menu} />;
+  return (
+    <div style={{ padding: "0 30px", width: "100vw" }}>
+      <Component {...pageProps} menu={props.menu} />;
+    </div>
+  );
 }
 
 MyApp.getInitialProps = async (ctx) => {

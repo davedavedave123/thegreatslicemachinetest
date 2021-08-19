@@ -2,6 +2,7 @@
   "id": "menu",
   "label": "Menu",
   "repeatable": false,
+  "status": true,
   "json": {
     "Main": {
       "title": {
@@ -10,6 +11,17 @@
           "placeholder": "Menu title...",
           "single": "heading1"
         }
+      },
+      "brandImage": {
+        "config": {
+          "label": "",
+          "constraint": {
+            "width": 300,
+            "height": 200
+          },
+          "thumbnails": []
+        },
+        "type": "Image"
       },
       "menu_links": {
         "type": "Group",
@@ -35,6 +47,5 @@
         }
       }
     }
-  },
-  "status": true
+  }
 }

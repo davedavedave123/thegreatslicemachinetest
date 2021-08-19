@@ -1,58 +1,32 @@
 import React, { useEffect } from "react";
 import { RichText } from "prismic-reactjs";
 import { Link } from "prismic-reactjs";
+import Image from "next/image";
+import Search from "./Search";
 
 export default function Header({ menu = [] }) {
   useEffect(() => {
-    console.log("Header menu:", menu);
+    console.log("Header brandImage:", menu.data.brandImage);
   }, []);
 
-  // return <div>hi</div>;
+  const { url: imgUrl, dimensions } = menu.data.brandImage;
+
   return (
-    <header>
-      <a href="/" className="logo">
-        {RichText.asText(menu.data.title)}
+    <header className="relative w-full h-10 flex justify-between">
+      <a href="/" className="relative">
+        {/* {menu.data.title && RichText.asText(menu.data.title)} */}
+        {menu.data.brandImage && (
+          <div className="relative h-10 w-10">
+            <Image
+              src={imgUrl}
+              width={dimensions.width}
+              height={dimensions.height}
+            />
+          </div>
+        )}
       </a>
+      <Search />
       <Links menuLinks={menu.data.menu_links} />
-      <style jsx>{`
-        .site-header {
-          height: 30px;
-          padding: 20px 0;
-          color: #484d52;
-          font-weight: 700;
-        }
-        .site-header a {
-          color: #484d52;
-          font-weight: 700;
-        }
-        .site-header a:hover {
-          color: #72767B;
-        }
-        .site-header .logo {
-          display: inline-block;
-          font-size: 22px;
-          font-weight: 900;
-        }
-        @media (max-width: 1060px) {
-          .site-header {
-            padding-left: 20px;
-            padding-right: 20px;
-          }
-        }
-        @media (max-width: 767px) {
-          .site-header {
-            height: auto;
-          }
-          .site-header {
-            position: absolute;
-            left: 0;
-            right: 0;
-          }
-          .site-header .logo {
-            display: block;
-            text-align: center;
-          }
-        `}</style>
     </header>
   );
 }

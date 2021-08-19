@@ -1,0 +1,51 @@
+{
+  "id": "ff83627f-fb3d-44ab-971b-5c878d4dafad",
+  "uid": "quaerat-rem-ea",
+  "type": "menu",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Whiteboard scalable architectures",
+        "spans": []
+      }
+    ],
+    "brandImage": {
+      "dimensions": {
+        "width": 300,
+        "height": 200
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=300&h=200&fit=crop"
+    },
+    "menu_links": [
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Eiusmod eiusmod ea eiusmod pariatur aute ullamco ullamco enim irure cillum elit sunt commodo duis laborum.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Deserunt elit ipsum magna eiusmod est veniam consequat.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ]
+  }
+}
