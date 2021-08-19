@@ -1,0 +1,46 @@
+{
+  "Main" : {
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "placeholder" : "Menu title...",
+        "single" : "heading1"
+      }
+    },
+    "brandImage" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 300,
+          "height" : 300
+        },
+        "thumbnails" : [ ],
+        "label" : "Image"
+      }
+    },
+    "menu_links" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "label" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "paragraph",
+              "label" : "Link Label",
+              "placeholder" : "Link Label..."
+            }
+          },
+          "link" : {
+            "type" : "Link",
+            "config" : {
+              "label" : "Link",
+              "placeholder" : "Select a Link...",
+              "select" : null
+            }
+          }
+        },
+        "label" : "Menu Links"
+      }
+    }
+  }
+}

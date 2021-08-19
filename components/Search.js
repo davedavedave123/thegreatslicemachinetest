@@ -11,31 +11,22 @@ export default function Search() {
   };
 
   const handleSubmit = async () => {
-    const options = {};
-    // const prismic = await Prismic.client(
-    //   "https://thegreatslicemachinetest.cdn.prismic.io/api/v2/documents/search")
-
-    const api = await Prismic.client(
-      "https://thegreatslicemachinetest.cdn.prismic.io/api/v2/documents/search",
-      {}
-    );
-    // .then(function (api) {
-    //   return api.query(Prismic.Predicates.search("document", "airplanes"), {
-    //     // orderings: "[my.blog-post.date desc]",
-    //   });
-    // })
-    // .then(function (response) {
-    //   // response is the response object, response.results holds the documents
-
-    //   console.log("response:", response);
-    // });
-
-    const result = await api.query(
-      Prismic.Predicates.at("document.type", "blog-post")
+    const searchResponse = await client.query(
+      Prismic.Predicates.fulltext("document", searchString)
     );
 
-    console.log("result", result);
+    if (searchResponse.results.length > 0) {
+      const ids = searchResponse.results.map((page) => page.id);
+      console.log("getting ids:", ids);
+
+      const pages2 = await client.query(
+        Prismic.Predicates.in("document.id", ids),
+        { lang: "*" }
+      );
+      console.log("pages2:", pages2);
+    }
   };
+
   return (
     <div className="relative flex">
       <div className="p-5 rounded-full border border-black flex justify-center items-center">
