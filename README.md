@@ -1,5 +1,5 @@
 run this with:
-prismic theme --theme-url https://github.com/davedavedave123/thegreatslicemachinetest --conf prismic-config.js
+prismic theme --theme-url https://github.com/davedavedave123/thegreatslicemachinetest --conf prismic-configuration.js
 
 # Prismic Slice Machine & Next.js Boilerplate
 
